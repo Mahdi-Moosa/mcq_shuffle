@@ -1,0 +1,53 @@
+\documentclass[12pt]{exam} 
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem} 
+\usepackage[
+  top=1in, % Top margin
+  bottom=1in, % Bottom margin
+  left=0.5in, % Left margin
+  right=0.5in % Right margin
+]{geometry}
+
+\newcommand{\courseInstitute}{BracU}
+\newcommand{\courseDepartment}{Department of Mathematics \& Natural Sciences (MNS)}
+\newcommand{\instructorCode}{MDO}
+\newcommand{\courseCode}{BTE406}
+\newcommand{\courseTitle}{Genomics \& Proteomics}
+\newcommand{\courseExam}{Quiz}
+\newcommand{\courseExamSL}{1}
+\newcommand{\courseSession}{Summer 2024}
+\newcommand{\examMarks}{20}
+\newcommand{\examTime}{60}
+
+\lhead{
+    \ifodd\value{page} % Check if current page is odd, if yes, print the header content.
+        \courseInstitute/\instructorCode/\courseCode(\courseTitle)/\courseSession/\courseExam/\courseExamSL \\ 
+        Student Name: \enspace \makebox[2.5in]{\hrulefill} \enspace Student ID: \enspace \makebox[1.5in]{\hrulefill}
+    \else
+        % Leave empty for even pages
+    \fi
+}
+
+\rhead{Total marks: 10 \\}
+
+\footer{}{}{}
+
+\begin{document}
+    {% for questions in question_sets %}
+\begin{questions}
+{% for item in questions %}
+    \question {{ item.question }}
+    
+        \begin{oneparchoices}
+        {% for choice in item.choices %}
+            \choice {{ choice }}
+        {% endfor %}
+        \end{oneparchoices}
+{% endfor %}
+\end{questions}
+\pagebreak
+{% endfor %}
+
+\end{document}

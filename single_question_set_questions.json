@@ -1,0 +1,186 @@
+[
+    {
+        "question": "Which of the following is \\textit{NOT} a prime number?",
+        "choices": [
+            "2",
+            "9",
+            "13",
+            "23"
+        ]
+    },
+    {
+        "question": "Simplify the expression: $3x^2 + 5x - 2x^2 - x$",
+        "choices": [
+            "$x^2 + 4x$",
+            "$x^2 - 4x$",
+            "$5x^2 + 4x$",
+            "$-x^2 - 4x$"
+        ]
+    },
+    {
+        "question": "What is the capital of Bangladesh?",
+        "choices": [
+            "Dhaka",
+            "Calcutta",
+            "Karachi",
+            "Colombo"
+        ]
+    },
+    {
+        "question": "What planet do you reside in?",
+        "choices": [
+            "Earth",
+            "Jupyter",
+            "Mars",
+            "Saturn"
+        ]
+    },
+    {
+        "question": "What is the capital of California?",
+        "choices": [
+            "Sacremento",
+            "San Francisco",
+            "San Diego",
+            "Los Angeles"
+        ]
+    },
+    {
+        "question": "What is the capital of Texas?",
+        "choices": [
+            "Austin",
+            "College Station",
+            "Dallas",
+            "El Paso"
+        ]
+    },
+    {
+        "question": "Where do DNA \\textit{primarily} reside in eukaryotes?",
+        "choices": [
+            "Nucelus",
+            "Cytoplasm",
+            "Cell membrane",
+            "Peroxisome"
+        ]
+    },
+    {
+        "question": "Which of the following city is in Chittagong division?",
+        "choices": [
+            "Chittagong",
+            "Dhaka",
+            "Rajshahi",
+            "Gazipur"
+        ]
+    },
+    {
+        "question": "How many stars are there in the US flag?",
+        "choices": [
+            "13",
+            "4",
+            "10",
+            "7"
+        ]
+    },
+    {
+        "question": "Which of the following country is NOT a permanent member of the \n        UN security council?",
+        "choices": [
+            "India",
+            "China",
+            "UK",
+            "France"
+        ]
+    },
+    {
+        "question": "Which of the following is is NOT a role of the central bank?",
+        "choices": [
+            "Buidling infrastracture",
+            "Regulating money supply",
+            "Formulating monetary policy",
+            "Regulating interest rate (from a broad perspective)"
+        ]
+    },
+    {
+        "question": "Scientific names of organisms are italiciized.",
+        "choices": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "question": "Which of the below is True?",
+        "choices": [
+            "Earth revolves around the sun.",
+            "Moon revolves around the sun.",
+            "Jupyter is a type of moon."
+        ]
+    },
+    {
+        "question": "I'm out of questions here.",
+        "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "Which of the following can be divided by 3?",
+        "choices": [
+            "90",
+            "50",
+            "43",
+            "7"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a multiple of 5?",
+        "choices": [
+            "103",
+            "45",
+            "80",
+            "10"
+        ]
+    },
+    {
+        "question": "What is a valid color for banana?",
+        "choices": [
+            "Green",
+            "Maroon",
+            "Magenta",
+            "Cyan"
+        ]
+    },
+    {
+        "question": "Which city is the capital of New York?",
+        "choices": [
+            "Albany",
+            "Rochester",
+            "Buffalo",
+            "Manhattan"
+        ]
+    },
+    {
+        "question": "Which of the below is true for virus (life science)?",
+        "choices": [
+            "Viruses are in between the living and the dead.",
+            "Viruses can replicate independently."
+        ]
+    },
+    {
+        "question": "What is the scientific name of humans?",
+        "choices": [
+            "\\textit{Homo sapiens}",
+            "\\textit{Periplaneta americana}",
+            "\\textit{Bos indicus}",
+            "\\textit{Naja naja}"
+        ]
+    },
+    {
+        "question": "What is the primary business activity of Alphabet (a.k.a. Google)?",
+        "choices": [
+            "Ad revenue from online searches.",
+            "Self-driving car.",
+            "DNA-sequencing.",
+            "Oil exploration."
+        ]
+    }
+]
